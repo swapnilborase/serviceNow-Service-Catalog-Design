@@ -1,0 +1,13 @@
+function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+    var integer = /^[0-9.,]*$/;
+    if (!integer.test(newValue))
+    {
+        alert('Enter only Numbers! Letters are not allowed :)');
+        g_form.clearValue('uid');
+    }
+   
+}

@@ -1,0 +1,14 @@
+function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading  newValue == '') {
+        return;
+    }
+
+    var s = g_form.getValue('required_mess');
+	g_form.setDisplay('mess_type', false);
+    if (s == no) {
+        g_form.setDisplay('mess_type', false);
+    }else{
+		g_form.setDisplay('mess_type', true);
+	}
+
+}

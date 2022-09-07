@@ -1,0 +1,18 @@
+var gr = new GlideRecord('u_p1_users_data');
+gr.initialize();
+
+gr.u_first_name = current.variables.first_name;
+gr.u_last_name = current.variables.last_name;
+gr.u_email = current.variables.email_id;
+gr.u_mobile_no = current.variables.mobile_no;
+gr.u_dob = current.variables.dob;
+gr.u_uid = current.variables.uid;
+gr.u_pan_card = current.variables.pan_card;
+gr.u_fathers_name = current.variables.fathers_name;
+gr.u_mothers_name = current.variables.mothers_name;
+gr.u_hostel = current.variables.select_hostel;
+gr.u_hostel_area = current.variables.hostel_area;
+gr.u_college = current.variables.college_name;
+
+
+gr.insert();

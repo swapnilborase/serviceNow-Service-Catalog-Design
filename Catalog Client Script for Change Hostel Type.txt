@@ -1,0 +1,15 @@
+function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+    var s = g_form.getValue('select_hostel');
+    if (s == "boys") {
+        g_form.setDisplay('select_boys_hostels', true);
+		g_form.setDisplay('select_girls_hostel', false);
+    }else{
+		g_form.setDisplay('select_boys_hostels', false);
+		g_form.setDisplay('select_girls_hostel', true);
+	}
+   
+}
