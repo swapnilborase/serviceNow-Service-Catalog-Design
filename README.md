@@ -12,3 +12,9 @@ Hostel Admission Process - I created a ServiceNow Catalog Service for taking adm
 * Created a catalog Item list for users to order an item.
 * Used Request Item workflow with the workflow that is created for user approval and handles tasks.
 * Combined Catalog Client Script to store and pass information to a custom table.
+
+# Environment / Technologies 
+* ServiceNow
+* IT Service Management
+* IT Infrastructure Library
+* JavaScript
